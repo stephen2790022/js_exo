@@ -1,9 +1,9 @@
 // Fonctionnalité 1 --- Fonctionnalité 1-bis :
-var clickCount = 0
+let count = 0
 document.getElementsByTagName("footer")[0]
 .addEventListener("click", () => {
-  clickCount ++;
-  console.log("clic numéro " + clickCount);
+  count ++;
+  console.log(`tu as clique ${count}`);
 });
 
 // Fonctionnalité 2 :
